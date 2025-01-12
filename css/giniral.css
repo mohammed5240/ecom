@@ -1,0 +1,43 @@
+:root{
+    --bg:#fff;
+    --col:black;
+}
+*{
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding:0;
+    
+}
+.dark{
+    
+}
+body,html{
+    background-color: var(--bg);
+    transition: 1.2s;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: 6px solid red;
+}
+ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+a, button{
+    list-style-type:none;
+    all: unset;
+    display: inline-block;
+}
+a:active, button:active{
+    transform: scale(0.9);
+}
+a:hover, button:hover{
+    cursor: pointer;
+}
+.contenir{
+    width: 80%;
+    margin-inline:10%;
+}
