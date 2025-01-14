@@ -1,0 +1,51 @@
+.section1{
+    background-color: var(--bg);
+    .hero-section{
+    height: calc(100vh - 67.6px);
+    justify-content: space-between;
+    .left{
+        width: 50%;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+            color: var(--bgdark);
+            padding-block: 40px;
+        }
+        a{
+            text-align: center;
+            width: 30%;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--fontw);
+            background-color: var(--colorhover);
+            padding: 15px 30px;
+            border-radius: 25px;
+            transition: 0.6s;
+        }
+        a:hover{
+            color: var(--bg);
+            background-color: var(--bgdark);
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

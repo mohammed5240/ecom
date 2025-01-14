@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/giniral.css">
+    <link rel="stylesheet" href="../css/checkout.css">
 </head>
 <body>
-    <section>
-        <form action="">
-            <div>
-                <h1></h1>
-                <p></p>
-                <div>
+    <div class="slider flex">
+        <h2>Checkout</h2>
+        <div class="links">
+            <a href="" class="a1">Home</a>
+            <a href="" class="a2">checkout</a>
+        </div>
+    </div>
+    <section class="contenir checkout">
+        
+        <form action="" class="flex">
+            <div class="inputs">
+                <h1>Make Your Checkout Here</h1>
+                <p>Please register in order to checkout more quickly</p>
+                <div class="input flex">
                     <div>
-                        <lable></lable>
-                        <input type="text" name="" id="">
+                        <lable>First Name *</lable>
+                        <input type="text" name="" id="" class="x">
                     </div>
                     <div>
-                        <lable></lable>
-                        <input type="text" name="" id="">
+                        <lable>Last Name *</lable>
+                        <input type="text" name="" class="x" id="">
                     </div>
                     <div>
-                        <lable></lable>
-                        <input type="text" name="" id="">
+                        <lable>Email Address *</lable>
+                        <input type="email" name="" class="x" id="">
                     </div>
                     <div>
-                        <lable></lable>
-                        <input type="text" name="" id="">
+                        <lable>Phone Number *</lable>
+                        <input type="text" name="" class="x" id="">
                     </div>
                     <div>
-                        <lable></lable>
-                        <select name="" id="">
-                            <option value="">oujda</option>
-                            <option value="">rabat</option>
-                            <option value="">Saïdia</option>
-                            <option value="">Casablanca</option>
+                        <lable>Country *</lable>
+                        <select name="" class="x" id="">
+                            <option value="">maroc</option>
+                            <option value="">canada</option>
+                            <option value="">spain</option>
+                            <option value="">Russia</option>
                         </select>
                     </div>
                     <div>
                         <lable>State / Divition *</lable>
-                        <select name="" id="">
+                        <select name="" id="" class="x">
                             <option value="">oujda</option>
                             <option value="">rabat</option>
                             <option value="">Saïdia</option>
@@ -48,25 +58,38 @@
                     </div>
                     <div>
                         <lable>Address Line 1 *</lable>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="" class="x">
                     </div>
                     <div>
                         <lable>Address Line 2 *</lable>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="" class="x">
                     </div>
                     <div>
                         <lable>Postal Code *</lable>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="" class="x">
                     </div>
                     <div>
                         <lable>Company *</lable>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="" class="x">
                     </div>
                 </div>
                 <input type="checkbox">
                 <label for="">Create an account?</label>
             </div>
-            <div></div>
+            <div class="totals">
+                <h2>CART TOTALS</h2>
+                <div><h4>Sub Total</h4><h4>$230.00</h4></div>
+                <div class="total-shipping"><h4>(+) Shipping</h4><h4>$20.00</h4></div>
+                <div class="total"><h4>Total</h4><h4>$250.00</h4></div>
+                <h2>PAYMENTS</h2>
+                <span class="inp_radio"><input type="radio"><label for="">Check Payments</label></span><br><br>
+                <span class="inp_radio"><input type="radio"><label for="">Cash On Delivery</label></span><br><br>
+                <span class="inp_radio"><input type="radio"><label for="">PayPal</label></span><br><br><br>
+                <div class="conternnr-submit">
+                    <input type="submit" class="x submit" value="PROCEED TO CHECKOUT">
+                </div>
+                
+            </div>
         </form>
     </section>
 </body>

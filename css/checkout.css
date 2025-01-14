@@ -1,0 +1,105 @@
+.slider{
+    background-color: var(--bg);
+    justify-content: space-between;
+    padding-block: 15px;
+    padding-inline: 10%;
+}
+
+.checkout{
+    margin-block: 50px;
+    form{
+        
+        align-items: normal;
+        h1{
+            margin-bottom: 15px;
+        }
+        .inputs{
+            width: 65%;
+            .input{
+                flex-wrap: wrap;
+                div{
+                    display: flex;
+                    flex-direction:column;
+                    margin-inline: 15px;
+                    width: 40%;
+                    margin-block: 10px;
+                    lable{
+                        margin-block: 8px;
+                        font-weight: 900;
+                    }
+                    select{
+                        font-size: 20px;
+                        padding-inline: 12px;
+                        padding-block:5px ;
+                        background-color: var(--bg);
+                        border-radius: 7px;
+
+                    }
+                    input{
+                        font-size: 20px;
+                        padding-inline: 12px;
+                        padding-block:5px ;
+                        background-color: var(--bg);
+                        border-radius: 7px;
+                        
+                        
+                    }
+                }
+            }
+        }
+        .totals{
+            width: 35%;
+            border: 2px solid var(--bg);
+            border-radius: 30px;
+            padding-inline: 20px;
+            padding-block: 20px;
+
+            h2{
+                padding-bottom: 20px;
+                padding-inline: 5px;
+            }
+            .total-shipping{
+               padding-bottom: 15px;
+               position: relative;
+ 
+            }
+            .total-shipping::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 0.6px;
+                bottom: 0;
+                background-color: var(--bg);
+            }
+            .total{
+                padding-top: 15px;
+                padding-bottom: 30px;
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-block: 5px;
+            }
+            .conternnr-submit{
+                width: 100%;
+                .submit{
+                    background-color: var(--colorhover);
+                    border-radius: 15px;
+                    padding-inline: 20px;
+                    padding-block: 10px;
+                    margin: auto;
+                    text-align: center;
+                    transition: 0.6s;
+                }
+                .submit:hover{
+                    background-color: var(--bgdark);
+                    color: var(--bg);
+                    border-radius: 35px;
+                }
+            }
+            
+            
+        }
+    }
+}

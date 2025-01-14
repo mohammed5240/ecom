@@ -1,32 +1,37 @@
+
 :root{
-    --bg:#fff;
-    --col:black;
+    --bg:#fef2f2 ;
+    --bgdark:#333333 ;
+    --colorhover:#EA1C26;
+    --bgg:200px;
+    --fontw:#fff;
+    --fontb:#000;
 }
 *{
     font-family: "Roboto", serif;
+    padding: 0;
     margin: 0;
-    padding:0;
+    box-sizing: border-box;
     
 }
 .dark{
     
 }
 body,html{
-    background-color: var(--bg);
-    transition: 1.2s;
+    
 }
 .flex{
     display: flex;
     align-items: center;
 }
 .border{
-    border: 6px solid red;
+    border: 6px solid var(--bg);
 }
 ul,li{
     text-decoration: none;
     list-style-type: none;
 }
-a, button{
+a, button ,.x{
     list-style-type:none;
     all: unset;
     display: inline-block;
