@@ -1,0 +1,30 @@
+.slider{
+    background-color: var(--bg);
+    justify-content: space-between;
+    padding-block: 15px;
+    padding-inline: 10%;
+    .a1{
+        color: #999dad;
+        transition: 0.3s;
+        &:hover{
+            color: var(--colorhover);
+        }
+
+    }
+    .a2{
+        color: black;
+        position: relative;
+        margin-left: 10px;
+        padding-left: 15px;
+        font-weight: 700;
+    }
+    .a2::after{
+        position: absolute;
+        content: '';
+        background-color: black;
+        width:2px;
+        height: 100%;
+        left: 0px;
+        transform: rotate(25deg);
+    }
+}

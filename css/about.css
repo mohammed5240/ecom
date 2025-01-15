@@ -1,0 +1,17 @@
+.ab-section1{
+    .content_1{
+        width: 50%;
+        h3{
+            color: var(--colorhover);
+            margin-bottom: 15px;
+        }
+        h2{
+            color: var(--bgdark);
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+        p{
+            color: var(--bgdark);
+        }
+    }
+}
