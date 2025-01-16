@@ -24,12 +24,63 @@
             border-radius: 25px;
             transition: 0.6s;
         }
-        a:hover{
+            a:hover{
             color: var(--bg);
             background-color: var(--bgdark);
+            }
         }
     }
 }
+.section2{
+    .slider{
+        h1{
+            color: var(--bgdark);
+            font-size: 30px;
+            margin-top: 20px;
+            transition: 0.3s;
+            &:hover{
+                color: var(--colorhover);
+            }
+            }
+        }
+        .content_image{
+            width: 100%;
+            
+            button{
+                width: 5%;
+                font-size: 50px;
+                color: var(--colorhover);
+                height: 100%;
+                text-align: center;
+            }
+            .btn1{
+                float: left;
+            }
+            .btn2{
+                float: right;
+            }
+            ul{
+            width: 90%;
+            gap: 50px;
+            overflow: auto;
+            scroll-behavior: smooth;
+            padding-block: 20px;
+                li{
+                    width: 140px;
+                    height: 140px;
+                    background-size:contain ;
+                    border-radius: 50%;
+                    img{
+                        width: 150px;
+                    }
+    
+                }
+            } 
+            ul::-webkit-scrollbar {
+                display:none;
+            }
+        }
+    }
 }
 
 
