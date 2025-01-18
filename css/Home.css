@@ -31,18 +31,22 @@
         }
     }
 }
+
+    .hh
+    {
+        h1{
+        color: var(--bgdark);
+        font-size: 35px;
+        margin-top: 20px;
+        transition: 0.3s;
+        &:hover{
+            color: var(--colorhover);
+        }
+        }
+    }
+
 .section2{
     .slider{
-        h1{
-            color: var(--bgdark);
-            font-size: 30px;
-            margin-top: 20px;
-            transition: 0.3s;
-            &:hover{
-                color: var(--colorhover);
-            }
-            }
-        }
         .content_image{
             width: 100%;
             
@@ -62,7 +66,7 @@
             ul{
             width: 90%;
             gap: 50px;
-            overflow: auto;
+            overflow: hidden;
             scroll-behavior: smooth;
             padding-block: 20px;
                 li{
@@ -78,7 +82,7 @@
             } 
             ul::-webkit-scrollbar {
                 display:none;
-            }
+            } 
         }
     }
 }
