@@ -15,9 +15,9 @@
     
 
 
-const productContainers = [...document.querySelectorAll('.slider .content_image ul')];
-const btn1 = [...document.querySelectorAll('.slider .content_image .btn1')];
-const btn2 = [...document.querySelectorAll('.slider .content_image .btn2')];
+const productContainers = [...document.querySelectorAll('.xx .ul')];
+const btn1 = [...document.querySelectorAll('.xx .btn1')];
+const btn2 = [...document.querySelectorAll('.xx .btn2')];
 
 productContainers.forEach((item,i) => {
     let containerDimensions = item.getBoundingClientRect();
@@ -25,11 +25,11 @@ productContainers.forEach((item,i) => {
     let containerWidth = containerDimensions.width;
     console.log(containerWidth);
     btn1[i].addEventListener('click',() => {
-        item.scrollLeft -= containerWidth;
+        item.scrollLeft -= containerWidth/4;
         console.log(btn1[i])
     })
     btn2[i].addEventListener('click',() => {
-        item.scrollLeft += containerWidth;
+        item.scrollLeft += containerWidth/4;
     })
         
     })

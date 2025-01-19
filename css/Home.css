@@ -86,7 +86,138 @@
         }
     }
 }
-
+.section4{
+    .slider{
+        .content_image{
+            width: 100%;
+            button{
+                width: 5%;
+                font-size: 50px;
+                color: var(--colorhover);
+                height: 100%;
+                text-align: center;
+            }
+            .btn1{
+                float: left;
+            }
+            .btn2{
+                float: right;
+            }
+            .products{
+            width: 90%;
+            flex-wrap: nowrap;
+            gap: 50px;
+            overflow: hidden;
+            scroll-behavior: smooth;
+            padding-block: 20px;
+            .product-c{
+                width: 230px;
+                margin-bottom: 35PX;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+                text-align: center;
+                transition: transform 0.3s, box-shadow 0.3s;
+                &::hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+                }
+                img {
+                    width: 100%;
+                    height:200PX ;
+                    border-top-left-radius: 5PX;
+                    border-top-right-radius: 5PX;
+        
+                    transition: transform 0.6s ease;
+                    transform-style: preserve-3d;
+                }
+                &:hover img {
+                    transform: rotateY(180deg);
+                }
+                .text-content{
+                    background-color: var(--bgdark);
+                    padding-block: 5px;
+                    padding-bottom: 15px;
+                    border-bottom-right-radius:5px ;
+                    border-bottom-left-radius:5px ;
+                }
+                h4 {
+                    margin: 6px 0;
+                    font-size: 18px;
+                    color: var(--bg);
+                }
+                p {
+                    color: #999dad;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                .price {
+                    color: var(--colorhover);
+                    font-weight:900;
+                    
+                    font-size: 16px;
+                }
+                
+                } 
+            }
+            .products::-webkit-scrollbar {
+                display:none;
+            } 
+        
+        }
+    }
+}
+.section3{
+    .h11{
+        margin-bottom: 40px;
+    }
+    .images{
+        width: 100%;
+        overflow: hidden;
+        margin-block: 45px;
+        gap: 30px;
+        .text-img{
+            position: absolute;
+            top: 40%;
+            color: white;
+            left: 30px;
+            z-index: 99;
+            h1{
+                color: white;
+            }
+        }
+        .div-img1{
+            width: 60%;
+            background-image: url('../laptop-with-colorful-screen-gray-background-3d-rendering.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 500px;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        .div-img2{
+            flex-direction: column;
+            gap: 30px;
+            width: 40%;
+            .img2{
+                background-image: url('../imgiphone/amine.jpg');
+                background-size:cover;
+                background-repeat: no-repeat;
+                position: relative;
+                width: calc(100% - 30px);
+                height: 235px;
+            }
+            .img3{
+                background-image: url('../imgiphone/amine1.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+                width: calc(100% - 30px);
+                height: 235px;
+            }
+        }
+    }
+}
 
 
 
