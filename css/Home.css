@@ -103,11 +103,11 @@
             .btn2{
                 float: right;
             }
-            .products{
-            width: 90%;
+            .product{
+            width: calc(90%);
             flex-wrap: nowrap;
             gap: 50px;
-            overflow: hidden;
+            overflow:auto;
             scroll-behavior: smooth;
             padding-block: 20px;
             .product-c{
